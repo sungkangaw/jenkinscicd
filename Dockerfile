@@ -17,7 +17,7 @@ RUN apt-get -y install apache2
 
 
 
-ADD . /var/www/html
+ADD index.html /var/www/html
 
 
 
